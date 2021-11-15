@@ -1,4 +1,5 @@
 #python drowniness_yawn.py --webcam webcam_index
+#also try in first step install libaries neccesary versions
 
 from scipy.spatial import distance as dist
 from imutils.video import VideoStream
@@ -29,6 +30,8 @@ def alarm(msg):
         s = 'espeak "' + msg + '"'
         os.system(s)
         saying = False
+	
+#this is Mathematic form part for finding eyes close or no
 
 def eye_aspect_ratio(eye):
     A = dist.euclidean(eye[1], eye[5])
