@@ -1,4 +1,4 @@
-# Drowsiness and Yawn det
+# Gaze tracking and Yawing
 
 https://user-images.githubusercontent.com/86318286/141834068-ccd71212-9dfe-4a68-92ca-4a3288998d8c.mp4
 
